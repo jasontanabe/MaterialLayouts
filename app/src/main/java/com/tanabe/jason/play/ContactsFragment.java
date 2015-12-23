@@ -61,7 +61,7 @@ public class ContactsFragment extends android.support.v4.app.Fragment {
     private ArrayList<ContactData> populateContactsData() {
         ArrayList results = new ArrayList<ContactData>();
         for (int i = 0; i < 20; i++) {
-            ContactData data = new ContactData("name " + Integer.toString(i));
+            ContactData data = new ContactData("name " + Integer.toString(i), null);
             results.add(i, data);
         }
         return results;
